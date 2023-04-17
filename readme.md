@@ -125,6 +125,7 @@ public function indexTable(Request $request){+
                     'empresa_id' => $r->empresa_id,
                 ],
                 'editar' => $editar
+                'eliminar' => $eliminar
             ];
             $data[] = $nestedData;
         }
